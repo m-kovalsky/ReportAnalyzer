@@ -8,7 +8,7 @@ This tool is designed to help Power BI developers/admins match Visual IDs from [
 
 Report Analyzer is an [External Tool](https://docs.microsoft.com/power-bi/transform-model/desktop-external-tools) for [Power BI Desktop](https://powerbi.microsoft.com/desktop). 
 
-1. [Download Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest).
+1. [Install Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest).
 2. Open Power BI Desktop.
 3. Navigate to 'External Tools' in the ribbon.
 4. Open Report Analyzer.
