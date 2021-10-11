@@ -18,5 +18,5 @@ Report Analzyer is an [External Tool](https://docs.microsoft.com/power-bi/transf
 * Easily see all visuals of a specific visual type (i.e. card).
 * Use the slider to select a DAX Query Time which highlights visuals (red border) with DAX Query times slower than the selected time (in seconds).
 * Hover over a visual to see additional tooltip information.
-   *  Visual ID, Visual Name, Page Name, Report Name, DAX Query Time, Render Time, Row Count, DAX Query, Columns Used, Measures Used, Hierarchies Used, Custom Visual Flag, Visual Contains a Report-Level Measure
+   *  Visual ID, Visual Name, Page Name, Report Name, DAX Query Time, Render Time, Row Count, DAX Query, Columns Used, Measures Used, Hierarchies Used, Custom Visual Flag, Visual Contains a [Report-Level Measure](https://www.elegantbi.com/post/reportlevelmeasures).
 * Click on a visual to copy additional information to the clipboard.
