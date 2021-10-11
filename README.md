@@ -1,5 +1,9 @@
 # [Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest)
 
+
+![image](https://user-images.githubusercontent.com/29556918/136777584-e0b753f2-e871-4fbe-a888-8e4fe7094c03.png)
+
+
 ### Purpose
 
 This tool is designed to help Power BI developers/admins match Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview) to specific visuals in their Power BI report. Additionally, Report Analyzer provides a visual interface for prioritizing performance troubleshooting.
