@@ -16,7 +16,7 @@ Report Analzyer is an [External Tool](https://docs.microsoft.com/power-bi/transf
 * Visually see [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data on a simulated Power BI Desktop canvas.
 * Find a specific visual by searching by Visual ID (especially useful for matching Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview)).
 * Easily see all visuals of a specific visual type (i.e. card).
-* Select a DAX Query Time within the slider to highlight visuals (red border) with DAX Query times slower than the selected time (in seconds).
+* Use the slider to select a DAX Query Time which highlights visuals (red border) with DAX Query times slower than the selected time (in seconds).
 * Hover over a visual to see additional tooltip information.
    *  DAX Query, Columns Used, Measures Used, Hierarchies Used, Custom Visual Flag, Visual Contains a Report-Level Measure
 * Click on a visual to copy additional information to the clipboard.
