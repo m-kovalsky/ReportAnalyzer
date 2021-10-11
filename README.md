@@ -16,9 +16,13 @@ Report Analyzer is an [External Tool](https://docs.microsoft.com/power-bi/transf
 2. Open Power BI Desktop.
 3. Navigate to 'External Tools' in the ribbon.
 4. Open Report Analyzer.
-5. Select the folder which contains your Power BI Desktop (or Power BI Template) file as well as the Performance Analyzer export (.json) file.
+5. Select the folder which contains your [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (or Power BI Template) file as well as the Performance Analyzer export (.json) file.
 
-This tool is best used after running [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) across all tabs in your Power BI report and [exporting the performance data](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer#saving-performance-information).
+This tool is best used after running [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) across all tabs in your Power BI report, [exporting the performance data](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer#saving-performance-information), and saving the performance data file to the same folder as your Power BI Desktop/Template file(s).
+
+### Compatiblity
+
+This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/desktop), Power BI Template and [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data (.json) files. All files must be in the same folder for the tool to integrate all of these files.
 
 ### Features
 
