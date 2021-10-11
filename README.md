@@ -1,4 +1,4 @@
-# Report Analyzer
+# [Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest)
 
 ### Purpose
 
