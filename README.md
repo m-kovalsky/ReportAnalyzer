@@ -20,3 +20,7 @@ Report Analzyer is an [External Tool](https://docs.microsoft.com/power-bi/transf
 * Hover over a visual to see additional tooltip information.
    *  Visual ID, Visual Name, Page Name, Report Name, DAX Query Time, Render Time, Row Count, DAX Query, Columns Used, Measures Used, Hierarchies Used, Custom Visual Flag, Visual Contains a [Report-Level Measure](https://www.elegantbi.com/post/reportlevelmeasures).
 * Click on a visual to copy additional information to the clipboard.
+
+### Disclaimer
+
+* In order to obtain the report metadata, Report Analyzer 'hacks' into the Power BI Desktop file. This type of operation is not supported by Microsoft.
