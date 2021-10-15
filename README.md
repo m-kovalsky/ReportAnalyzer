@@ -35,7 +35,7 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Click on a visual to copy additional information to the clipboard (including the DAX Query).
 * Dark mode out of the box.
 
-## Log Analytics
+## Log Analytics Visual Matching
 
 Report Analyzer can be used to match Log Analytics queries to a specific visual in a Power BI report. In order to do this, follow these steps:
 
