@@ -35,6 +35,29 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Click on a visual to copy additional information to the clipboard (including the DAX Query).
 * Dark mode out of the box.
 
+## Log Analytics
+
+Report Analyzer can be used to match Log Analytics queries to a specific visual in a Power BI report. In order to do this, follow these steps:
+
+1. Navigate to your [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview) Workspace.
+2. Click on 'Logs' within the 'General' category on the left pane.
+3. Paste the [Kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/) query (see below).
+4. Add any additional filters to the Kusto query (as desired - perhaps based on time etc.).
+5. Copy the VisualId from the Kusto query and search for it within the Report Analyzer's Visual ID slicer (must be connected to the same report).
+
+```kusto
+PowerBIDatasetsWorkspace
+| where OperationName == "QueryEnd"
+| project WorkspaceName
+,DatasetId = substring(ApplicationContext,indexof(ApplicationContext,"{\"DatasetId\":")+14,36)
+,ReportId  = substring(ApplicationContext,indexof(ApplicationContext,"{\"ReportId\":")+13,36)
+,VisualId  = substring(ApplicationContext,indexof(ApplicationContext,",\"VisualId\":")+13,20)
+,DurationMs
+,EventText
+,ApplicationContext
+| order by DurationMs desc 
+```
+
 ## Disclaimer
 
 * In order to obtain the report metadata, Report Analyzer 'hacks' into the Power BI Desktop file. This type of operation is not supported by Microsoft.
