@@ -24,7 +24,7 @@ In order to take full advantage of the tool, make sure you run the [Performance 
 
 ## Compatiblity
 
-This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/desktop), Power BI Template and [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data (.json) files. All files must be in the same folder for the tool to integrate all of these files.
+This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/desktop), Power BI Templates, and [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data (.json) files. All files must be in the same folder for the tool to integrate all of these files.
 
 ## Features
 
