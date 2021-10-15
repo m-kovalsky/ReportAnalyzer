@@ -60,6 +60,10 @@ PowerBIDatasetsWorkspace
 | order by DurationMs desc 
 ```
 
+*NOTE: A simple way to find the Report ID of a report is by navigating to the report page within [PowerBI.com]("https://www.powerbi.com") and see the portion of the URL after 'reports' as highlighted in orange in the screenshot below.*
+
+![image](https://user-images.githubusercontent.com/29556918/137474202-34204afc-a1bc-461c-9324-125cbc521b38.png)
+
 ## Disclaimer
 
 * In order to obtain the report metadata, Report Analyzer 'hacks' into the Power BI Desktop file. This type of operation is not supported by Microsoft.
