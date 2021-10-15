@@ -12,13 +12,15 @@ This tool is designed to help Power BI developers/admins match Visual IDs from [
 
 Report Analyzer is an [External Tool](https://docs.microsoft.com/power-bi/transform-model/desktop-external-tools) for [Power BI Desktop](https://powerbi.microsoft.com/desktop). 
 
-In order to take full advantage of the tool, make sure you run the [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) across all tabs in your Power BI report and [export](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer#saving-performance-information) it to a .json file. Save the performance data file to the same folder as your Power BI Desktop/Template file(s). There is no specific naming requirement performance data .json file.
+In order to take full advantage of the tool, make sure you run the [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) across all tabs in your Power BI report and [export](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer#saving-performance-information) it to a .json file. Save the performance data file to the same folder as your Power BI Desktop/Template file(s). Report Analyzer is able to handle multiple .pbix/.pbit files as well as multiple Performance Analyzer .json files.
+
+*NOTE: There is no specific naming requirement performance data .json file.*
 
 1. [Install Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest).
 2. Open Power BI Desktop.
 3. Navigate to 'External Tools' in the ribbon.
 4. Open Report Analyzer.
-5. Select the folder which contains your [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (or Power BI Template) file as well as the Performance Analyzer export (.json) file.
+5. Select the folder which contains your [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (or Power BI Template) file(s) as well as the Performance Analyzer export (.json) file.
 
 ## Compatiblity
 
