@@ -28,7 +28,7 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 
 ## Features
 
-* Visually see [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data overlayed on each visual on a simulated Power BI Desktop canvas.
+* Visually see [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data overlaid on each visual on a simulated Power BI Desktop canvas.
 * Find a specific visual by searching by Visual ID (especially useful for matching Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview)).
 * Easily see all visuals of a specific visual type (i.e. card).
 * Use the slider to select a DAX Query Time which highlights visuals (red border) with DAX Query times slower than the selected time (in seconds).
