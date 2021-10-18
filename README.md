@@ -14,7 +14,7 @@ Report Analyzer is an [External Tool](https://docs.microsoft.com/power-bi/transf
 
 In order to take full advantage of the tool, make sure you run the [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) across all tabs in your Power BI report and [export](https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer#saving-performance-information) the results to a .json file. Save the performance data file to the same folder as your Power BI Desktop/Template file(s). Report Analyzer is able to handle multiple .pbix/.pbit files as well as multiple Performance Analyzer .json files.
 
-*NOTE: There is no specific naming requirement performance data .json file.*
+*NOTE: There is no specific naming requirement for performance data .json files.*
 
 1. [Install Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest).
 2. Open Power BI Desktop.
