@@ -26,6 +26,5 @@ If applicable, add screenshots to help explain your problem.
 **Version Number (please complete the following information):**
  - Version [i.e. 1.0.2]
 
-
 **Additional context**
 Add any other context about the problem here.
