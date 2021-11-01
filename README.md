@@ -37,6 +37,7 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Click on a visual to copy additional information to the clipboard (including the DAX Query).
 * Supports loading multiple Power BI Desktop/Template files and automatically associating them with the Performance Analyzer .json files (must all be in the folder selected in the start screen).
 * Dark mode out of the box.
+* [Report Analyzer Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos) (as of v1.1.0).
 
 ## Log Analytics Visual Matching
 
