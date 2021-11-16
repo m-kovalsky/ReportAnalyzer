@@ -1,8 +1,7 @@
 # [Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest)
 
 
-![image](https://user-images.githubusercontent.com/29556918/136777584-e0b753f2-e871-4fbe-a888-8e4fe7094c03.png)
-
+![image](https://user-images.githubusercontent.com/29556918/142015924-8e96a05b-17e7-44aa-8b5b-9f680e60881c.png)
 
 ## Purpose
 
