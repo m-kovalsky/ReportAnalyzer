@@ -37,6 +37,14 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Supports loading multiple Power BI Desktop/Template files and automatically associating them with the Performance Analyzer .json files (must all be in the folder selected in the start screen).
 * Dark mode out of the box.
 * [Report Analyzer Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos) (as of v1.1.0).
+* Export Report Metadata (as of v1.2.0) - this exports the report metadata (objects) in the same fashion as the [Export Report Objects](https://github.com/m-kovalsky/Tabular#export-report-objects) script.
+
+## Recommendations
+
+* Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
+* 6 pre-loaded recommendations available to be run against your reports.
+* Following these recommendations will generally yield more performant reports.
+* Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
 
 ## Log Analytics Visual Matching
 
