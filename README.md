@@ -44,6 +44,7 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
 * 6 pre-loaded recommendations available to be run against your reports.
 * Following these recommendations will generally yield more performant reports.
+* Each rule and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
 * Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
 
 ## Log Analytics Visual Matching
