@@ -42,8 +42,12 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
 * 6 pre-loaded recommendations available to be run against your reports.
 * Following these recommendations will generally yield more performant reports.
-* Each rule and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
+* Each recommendation and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
 * Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
+* Recommendations in red text have visuals which are deemed 'slow queries' (based on the DAX Query Time threshold)
+* Visuals in red text are deemed 'slow queries' (based on the DAX Query Time threshold)
+* The number in parenthesis next to a recommendation shows the number of objects which violate the recommendation
+* The number in parenthesis next to a violation shows the number of objects within that object (visual/page/report)
 
 ## Log Analytics Visual Matching
 
