@@ -37,7 +37,7 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * [Report Analyzer Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos) (as of v1.1.0).
 * Export Report Metadata (as of v1.2.0) - this exports the report metadata (objects) in the same fashion as the [Export Report Objects](https://github.com/m-kovalsky/Tabular#export-report-objects) script.
 
-## Recommendations
+## [Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos)
 
 * Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
 * 6 pre-loaded recommendations available to be run against your reports.
