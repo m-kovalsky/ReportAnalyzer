@@ -1,7 +1,7 @@
 # [Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest)
 
 
-![image](https://user-images.githubusercontent.com/29556918/142422793-16b737f3-e49a-4c05-b15c-b39d9de374bf.PNG)
+![image](https://user-images.githubusercontent.com/29556918/144126596-62021fc2-3f86-490a-b34f-dbc8e1e5368d.PNG)
 
 This tool is designed to help Power BI developers/admins match Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview) to specific visuals in their Power BI report. Additionally, Report Analyzer provides a visual interface for prioritizing performance troubleshooting.
 
@@ -36,11 +36,12 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Dark mode out of the box.
 * [Report Analyzer Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos) (as of v1.1.0).
 * Export Report Metadata (as of v1.2.0) - this exports the report metadata (objects) in the same fashion as the [Export Report Objects](https://github.com/m-kovalsky/Tabular#export-report-objects) script.
+* Bookmarks slicer allows for updating the simulated Power BI canvas to show the visuals per the settings of the selected bookmark (as of v1.4.0).
 
 ## [Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos)
 
 * Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
-* 6 pre-loaded recommendations available to be run against your reports.
+* 7 pre-loaded recommendations available to be run against your reports.
 * Following these recommendations will generally yield more performant reports.
 * Each recommendation and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
 * Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
