@@ -21,6 +21,8 @@ In order to take full advantage of the tool, make sure you run the [Performance 
 4. Open Report Analyzer.
 5. Select the folder which contains your [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (or Power BI Template) file(s) as well as the Performance Analyzer export (.json) file.
 
+*NOTE: As of v1.3.0, you can also open Report Analyzer from the Start menu or the Desktop shortcut. It is not necessary to open Report Analyzer through Power BI Desktop.*
+
 ## Compatiblity
 
 This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/desktop), Power BI Templates, and [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data (.json) files. All files must be in the same folder for the tool to integrate all of these files.
