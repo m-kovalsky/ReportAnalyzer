@@ -48,8 +48,8 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 * Following these recommendations will generally yield more performant reports.
 * Each recommendation and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
 * Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
-* Recommendations in red text have visuals which are deemed 'slow queries' (based on the DAX Query Time threshold).
-* Visuals in red text are deemed 'slow queries' (based on the DAX Query Time threshold).
+* Recommendations in red text have visuals which are deemed 'slow queries' (based on the DAX Query Time slider).
+* Visuals in red text are deemed 'slow queries' (based on the DAX Query Time slider).
 * Prioritization for visual performance troubleshooting should commence with rules/visuals in red text as those indicate visuals which are designated as slow.
 * The number in parenthesis next to a recommendation shows the number of objects which violate the recommendation.
 * The number in parenthesis next to a violation shows the number of objects within that object (visual/page/report).
