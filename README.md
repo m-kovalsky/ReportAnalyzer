@@ -3,6 +3,8 @@
 
 ![image](https://user-images.githubusercontent.com/29556918/144126596-62021fc2-3f86-490a-b34f-dbc8e1e5368d.PNG)
 
+## Purpose
+
 This tool is designed to help Power BI developers/admins match Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview) to specific visuals in their Power BI report. Additionally, Report Analyzer provides a visual interface for prioritizing performance troubleshooting.
 
 ## Running the tool
@@ -27,28 +29,30 @@ This tool is compatible with [Power BI Desktop](https://powerbi.microsoft.com/de
 
 * Visually see [Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer) data overlaid on each visual on a simulated Power BI Desktop canvas.
 * Find a specific visual by searching by Visual ID (especially useful for matching Visual IDs from [Log Analytics](https://docs.microsoft.com/power-bi/transform-model/log-analytics/desktop-log-analytics-overview)).
-* Easily see all visuals of a specific visual type (i.e. card).
-* Use the slider to select a DAX Query Time which highlights visuals (red border) with DAX Query times slower than the selected time (in seconds).
-* Hover over a visual to see additional tooltip information.
+* Use the Visual Type slicer to easily see all visuals of a specific visual type (i.e. Card).
+* Setting the DAX Query Time slider highlights visuals (with a red fill) with DAX Query times slower than the selected time (in seconds).
+* Hover over a visual to see additional visual metadata.
    *  Visual ID, Visual Name, Page Name, Report Name, DAX Query Time, Render Time, Row Count, Columns Used, Measures Used, Hierarchies Used, Custom Visual Flag, Visual Contains a [Report-Level Measure](https://www.elegantbi.com/post/reportlevelmeasures).
-* Click on a visual to copy additional information to the clipboard (including the DAX Query).
+* Click on a visual to copy additional metadata pertaiing to that visual to the clipboard (including the DAX Query).
 * Supports loading multiple Power BI Desktop/Template files and automatically associating them with the Performance Analyzer .json files (must all be in the folder selected in the start screen).
 * Dark mode out of the box.
 * [Report Analyzer Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos) (as of v1.1.0).
 * Export Report Metadata (as of v1.2.0) - this exports the report metadata (objects) in the same fashion as the [Export Report Objects](https://github.com/m-kovalsky/Tabular#export-report-objects) script.
-* Bookmarks slicer allows for updating the simulated Power BI canvas to show the visuals per the settings of the selected bookmark (as of v1.4.0).
+* The Bookmarks slicer allows for updating the simulated Power BI canvas to show the visuals per the settings of the selected bookmark (as of v1.4.0).
 
 ## [Recommendations](https://www.elegantbi.com/post/reportanalyzerrecos)
 
 * Make sure to see my [blog post](https://www.elegantbi.com/post/reportanalyzerrecos) on this topic for additional context regarding the recommendations!
+* These recommendations are meant to complement the [Best Practice Rules](https://github.com/microsoft/Analysis-Services/tree/master/BestPracticeRules) for [Tabular Editor](https://tabulareditor.com/)'s [Best Practice Analyzer](https://docs.tabulareditor.com/te2/Best-Practice-Analyzer.html) as those rules focus on the model side whereas these recommendations focus on the report side.
 * 7 pre-loaded recommendations available to be run against your reports.
 * Following these recommendations will generally yield more performant reports.
 * Each recommendation and object has tooltips on hover which provide additional context regarding the recommendation and objects which violate the best practice.
 * Clicking on objects within the recommendations will navigate you to the particular page/visual where additional information can be found and performance improvement actions can commence.
-* Recommendations in red text have visuals which are deemed 'slow queries' (based on the DAX Query Time threshold)
-* Visuals in red text are deemed 'slow queries' (based on the DAX Query Time threshold)
-* The number in parenthesis next to a recommendation shows the number of objects which violate the recommendation
-* The number in parenthesis next to a violation shows the number of objects within that object (visual/page/report)
+* Recommendations in red text have visuals which are deemed 'slow queries' (based on the DAX Query Time threshold).
+* Visuals in red text are deemed 'slow queries' (based on the DAX Query Time threshold).
+* Prioritization for visual performance troubleshooting should commence with rules/visuals in red text as those indicate visuals which are designated as slow.
+* The number in parenthesis next to a recommendation shows the number of objects which violate the recommendation.
+* The number in parenthesis next to a violation shows the number of objects within that object (visual/page/report).
 
 ## Log Analytics Visual Matching
 
@@ -58,7 +62,9 @@ Report Analyzer can be used to match Log Analytics queries to a specific visual 
 2. Click on 'Logs' within the 'General' category on the left pane.
 3. Paste the [Kusto](https://docs.microsoft.com/azure/data-explorer/kusto/query/) query (see below).
 4. Add any additional filters to the Kusto query (as desired - perhaps based on time etc.).
-5. Copy the VisualId from the Kusto query and search for it within the Report Analyzer's Visual ID slicer (must be connected to the same report).
+5. Find the Visual ID within Log Analytics in the Visual ID slicer within Report Analyzer (must be connected to the same report).
+
+*NOTE: The following query the slowest Power BI queries at the top so you can easily prioritize the queries which need the most attention.*
 
 ```kusto
 PowerBIDatasetsWorkspace
