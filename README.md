@@ -66,7 +66,7 @@ Report Analyzer can be used to match Log Analytics queries to a specific visual 
 4. Add any additional filters to the Kusto query (as desired - perhaps based on time etc.).
 5. Find the Visual ID within Log Analytics in the Visual ID slicer within Report Analyzer (must be connected to the same report).
 
-*NOTE: The following query the slowest Power BI queries at the top so you can easily prioritize the queries which need the most attention.*
+*NOTE: The following query displays the slowest Power BI queries at the top so you can easily prioritize the queries which need the most attention.*
 
 ```kusto
 PowerBIDatasetsWorkspace
