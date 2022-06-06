@@ -1,5 +1,8 @@
 # [Report Analyzer](https://github.com/m-kovalsky/ReportAnalyzer/releases/latest)
 
+## Report Analyzer Introduction with Reid Havens
+
+[![Report Analyzer Introduction video on Youtube](http://i3.ytimg.com/vi/WT_5nOPdbqk/hqdefault.jpg)](https://www.youtube.com/watch?v=WT_5nOPdbqk&t=2s&ab_channel=HavensConsulting)
 
 ![image](https://user-images.githubusercontent.com/29556918/144126596-62021fc2-3f86-490a-b34f-dbc8e1e5368d.PNG)
 
