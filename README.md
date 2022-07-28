@@ -74,7 +74,7 @@ Report Analyzer can be used to match Log Analytics queries to a specific visual 
 ```kusto
 PowerBIDatasetsWorkspace
 | where OperationName == "QueryEnd"
-| project WorkspaceName
+| project PowerBIWorkspaceName
 ,DatasetId = substring(ApplicationContext,indexof(ApplicationContext,"{\"DatasetId\":")+14,36)
 ,ReportId  = substring(ApplicationContext,indexof(ApplicationContext,"{\"ReportId\":")+13,36)
 ,VisualId  = substring(ApplicationContext,indexof(ApplicationContext,",\"VisualId\":")+13,20)
