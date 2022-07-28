@@ -75,9 +75,9 @@ Report Analyzer can be used to match Log Analytics queries to a specific visual 
 PowerBIDatasetsWorkspace
 | where OperationName == "QueryEnd"
 | project PowerBIWorkspaceName
-,DatasetId = substring(ApplicationContext,indexof(ApplicationContext,"{\"DatasetId\":")+14,36)
-,ReportId  = substring(ApplicationContext,indexof(ApplicationContext,"{\"ReportId\":")+13,36)
-,VisualId  = substring(ApplicationContext,indexof(ApplicationContext,",\"VisualId\":")+13,20)
+,DatasetId = tostring(parse_json(ApplicationContext).DatasetId)
+,ReportId = tostring(parse_json(parse_json(ApplicationContext).Sources[0]).ReportId)
+,VisualId  = tostring(parse_json(parse_json(ApplicationContext).Sources[0]).VisualId)
 ,DurationMs
 ,EventText
 ,ApplicationContext
